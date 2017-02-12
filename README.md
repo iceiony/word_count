@@ -3,7 +3,7 @@ Instructions
 
 Code was tested on R v3.2.2
 
-* To install needed dependencies run 
+1. To install needed dependencies run 
 ```bash
 Rscript install_dependencies.R
 ```
@@ -12,9 +12,9 @@ If install fails for the rJava package, reconfigure the R java binding
 sudo R CMD javareconf
 ```
 
-* Place input documents in `./in/` 
+2. Place input documents in `./in/` 
 
-* Output generated in `./out/` after running 
+3. Output generated in `./out/` after running 
 ```bash
 Rscript count_words.R
 ```
