@@ -43,7 +43,7 @@ write.table(all_sent, './out/sentences.csv', sep = ',' , row.names = F )
 
 
  
-
+#output word counts
 doc_words <- doc_words %>%
              rowwise() %>%
              mutate(document  = paste(document, collapse = ', '),
